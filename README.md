@@ -27,7 +27,7 @@ Schematic  diagram  of  our  proposedDoFEframework  to  utilize  multi-source  d
     
 
 ## Usage
-1. Clone the repository and download the [dataset](---) and [VLCS](http://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file) into your own folder and change `--data-dir` correspondingly.
+1. Clone the repository and download the [dataset](https://drive.google.com/file/d/1p33nsWQaiZMAgsruDoJLyatoq5XAH-TH/view?usp=sharing) into your own folder and change `--data-dir` correspondingly.
 
 2. Train the model.
 
