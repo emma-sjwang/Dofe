@@ -16,7 +16,7 @@ Schematic  diagram  of  our  proposedDoFEframework  to  utilize  multi-source  d
 -   PyTorch 1.5.0 
     
     ``` bash
-    conda activate EISNet 
+    conda activate DOFE 
     conda install pytorch==1.5.0 torchvision cudatoolkit=9.2 -c pytorch 
     pip install tensorboardX==2.0
     pip install opencv-python
