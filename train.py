@@ -62,7 +62,7 @@ def main():
     parser.add_argument('--lr', type=float, default=1e-3, help='learning rate',)
     parser.add_argument('--lr-decrease-rate', type=float, default=0.2, help='ratio multiplied to initial lr')
     parser.add_argument('--lam', type=float, default=0.9, help='momentum of memory update',)
-    parser.add_argument('--data-dir', default='../../../../Dataset/Fundus/', help='data root path')
+    parser.add_argument('--data-dir', default='/content/drive/MyDrive/Colab Notebooks/Fundus-doFE.zip (Unzipped Files)/Fundus', help='data root path')
     parser.add_argument('--pretrained-model', default='../../../models/pytorch/fcn16s_from_caffe.pth', help='pretrained model of FCN16s',)
     parser.add_argument('--out-stride', type=int, default=16, help='out-stride of deeplabv3+',)
     args = parser.parse_args()
